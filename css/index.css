@@ -85,6 +85,33 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content.about{
+    justify-content: space-around;
+    justify-items: center;
+    border-bottom: none;
+}
+
+.top-content .text-container.box{
+    
+    border-bottom: 1px dashed black;
+    margin-bottom:4%;
+}
+
+.bottom-content.about{
+    display: block;
+    padding-bottom: 4%;
+    /* align-items: center;
+    align-content: center; */
+}
+
+/* .top-content .text-container.box.left{
+    margin-right: .5%;
+}
+
+.top-content .text-container.box.right{
+    margin-left: .5%;
+} */
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -165,12 +192,38 @@ footer nav a {
     justify-content: space-between;
 }
 
+
+
 .hero-image{
     height:30vh;
-    margin: 3% 0;
+    margin-top: 3%;
     background: url(/img/jumbo.jpg);
     background-size: cover;
-    /* background-repeat: no-repeat; */
+}
+
+.hero-image.about{
+    background: url(/img/jumbo-about.png);
+}
+
+.text-container h2{
+    margin-top: 3%;
+}
+
+.text-container.about{
+    width: 97%;
+}
+
+.text-container a{
+    display: inline-block;
+    border: 2px solid black;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 2% 5%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 #one{
