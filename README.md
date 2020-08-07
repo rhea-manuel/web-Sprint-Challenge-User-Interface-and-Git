@@ -46,7 +46,12 @@ Content, Padding, Border, Margin
 Cross-Axis.
 
 5. Explain why git is valuable to a team of developers.
-Git helps a team keep track of the various changes in the code with branches, so each member can work on their part. Also, it provides a valuable backup incase things go wrong, they can revert to a previous working version.
+Git is exceptionally valuable to a team of developers because it has version control, branches and many other different features and commands that help different developers work together on the same project without having to constantly e-mail files back and forth and keep local records. Below is a list of some of the features that are extremely valuable:
+
+``git commit -m`` allows developers to add a comment along with their updated code. This allows all the developers to track what changes are being made and know when what is changes.
+``git checkout -b`` allows each developer to have their own branch. So, multiple developers can work on different aspects of the same project at the time.
+``git revert``allows a developer to go back to a previous commit, incase they made any errors and need to go back to a previous working version of the project.
+``git push`` an extremely important command, it allows the developer to push their changes to a server where all the developers can access it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
