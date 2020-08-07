@@ -144,3 +144,71 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.links{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
+    margin: 0 5%;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+.top_menu{
+    display: flex;
+    align-items: baseline;
+    margin-top: 2.5%;
+    justify-content: space-between;
+}
+
+.hero-image{
+    height:30vh;
+    margin: 3% 0;
+    background: url(/img/jumbo.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+#one{
+    background:#008080;
+}
+
+#two{
+    background:#ffd700;
+}
+
+#three{
+    background: #5f9ea0;
+}
+
+#four{
+    background: #ff7f50;
+}
+
+#five{
+    background: #dc143c;
+}
+
+#six{
+    background: #228b22;
+}
+
+#seven{
+    background: #9932cc;
+}
+
+#eight{
+    background: #ff69b4;
+}
+
+#nine{
+    background: #4b0082;
+}
+
+#ten{
+    background: #1e90ff;
+}
