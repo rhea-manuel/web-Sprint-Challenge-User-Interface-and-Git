@@ -252,10 +252,6 @@ so also modified that. */
     margin-bottom:4%;
 }
 
-.top-content .text-container h2{
-    margin-top: 4%;
-}
-
 /* Changing the image for the about page */
 .hero-image.about{
     background: url(/img/jumbo-about.png);
@@ -265,11 +261,6 @@ so also modified that. */
 .text-container.about{
     margin-top: 2%;
     width: 97%;
-}
-
-/* Adjusting the values of the top heading for the about section. */
-.top-content .text-container.about h2{
-    margin-top:0;
 }
 
 /* Styling the links inside the About class items. */
@@ -282,3 +273,9 @@ so also modified that. */
     padding: 2% 5%;
 }
 
+/* ------ BEAUTIFICATION/SIMPLIFICATION STYLES */
+
+/* Added extra breathing room for the top text in the index page + the items on the about page. */
+.index h2, .item h2{
+    margin-top: 4%;
+}
