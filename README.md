@@ -33,14 +33,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML gives meaning to your HTML: It would be like describing a room as a "bedroom". Non-semantic HTML are like floors and walls: very important to provide structure of your site, but doesn't give meaning to your HTML.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+- Display:block breaks to a new line, while display:inline elements are part of the same line.
+- Display:block can take width and height properties, while display:inline cannot.
 
 3. What are the 4 areas of the box model?
+Content, Padding, Border, Margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+Cross-Axis.
 
 5. Explain why git is valuable to a team of developers.
+Git is exceptionally valuable to a team of developers because it has version control, branches and many other different features and commands that help different developers work together on the same project without having to constantly e-mail files back and forth and keep local records. Below is a list of some of the features that are extremely valuable:
+
+``git commit -m`` allows developers to add a comment along with their updated code. This allows all the developers to track what changes are being made and know when what is changes.
+``git checkout -b`` allows each developer to have their own branch. So, multiple developers can work on different aspects of the same project at the time.
+``git revert``allows a developer to go back to a previous commit, incase they made any errors and need to go back to a previous working version of the project.
+``git push`` an extremely important command, it allows the developer to push their changes to a server where all the developers can access it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
