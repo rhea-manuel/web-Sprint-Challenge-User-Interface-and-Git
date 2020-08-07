@@ -248,12 +248,11 @@ so also modified that. */
 
 /* Custom item class: Modified selectively to ensure it is not overwritten. */
 .top-content .text-container.item{
-    
     border-bottom: 1px dashed black;
     margin-bottom:4%;
 }
 
-.top-content .text-container.item h2{
+.top-content .text-container h2{
     margin-top: 4%;
 }
 
@@ -266,6 +265,11 @@ so also modified that. */
 .text-container.about{
     margin-top: 2%;
     width: 97%;
+}
+
+/* Adjusting the values of the top heading for the about section. */
+.top-content .text-container.about h2{
+    margin-top:0;
 }
 
 /* Styling the links inside the About class items. */
